@@ -55,7 +55,7 @@ export default () => {
 
     {/* wheel */}
     <div className="wheel ">
-    <div className='flex mx-auto justify-center cursor-pointer w-fit rounded-full' onClick={handleSpinClick}
+    <div className='flex mx-auto justify-center cursor-pointer w-fit rounded-full drop-shadow-xl' onClick={handleSpinClick}
     >
       <Wheel
         mustStartSpinning={mustSpin}
