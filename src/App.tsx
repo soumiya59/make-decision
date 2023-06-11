@@ -39,10 +39,10 @@ export default () => {
     <>
     {/* navbar */}
     <div className='grid grid-cols-4 text-center gap-5  md:text-xl '>
-        <div className='bg-white border-2 rounded-b-2xl p-5 md:p-10 cursor-pointer' onClick={()=>{setData(yesNo)}}>YES or No</div>
-        <div className='bg-white border-2 rounded-b-2xl p-5 md:p-10 cursor-pointer' onClick={()=>setData(food)}>What to eat</div>
-        <div className='bg-white border-2 rounded-b-2xl p-5 md:p-10 cursor-pointer' onClick={()=>setData(bored)}>What to do</div>
-        <div className='bg-white border-2 rounded-b-2xl p-5 md:p-10 cursor-pointer' onClick={customize}>Customize</div>
+        <div className='bg-white border-2 rounded-b-2xl p-5 md:p-10 cursor-pointer drop-shadow-md' onClick={()=>{setData(yesNo)}}>YES or No</div>
+        <div className='bg-white border-2 rounded-b-2xl p-5 md:p-10 cursor-pointer drop-shadow-md' onClick={()=>setData(food)}>What to eat</div>
+        <div className='bg-white border-2 rounded-b-2xl p-5 md:p-10 cursor-pointer drop-shadow-md' onClick={()=>setData(bored)}>What to do</div>
+        <div className='bg-white border-2 rounded-b-2xl p-5 md:p-10 cursor-pointer drop-shadow-md' onClick={customize}>Customize</div>
     </div>
 
     {showinput && 
@@ -76,7 +76,7 @@ export default () => {
         }
       />
     </div>
-    <BTN onClick={handleSpinClick} className='flex mx-auto -mt-48 border-2 bg-white'>SPIN</BTN>
+    <BTN onClick={handleSpinClick} className='flex mx-auto -mt-48 border-2 bg-white shadow-md'>SPIN</BTN>
     </div>
     </>
   )
