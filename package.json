@@ -9,7 +9,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "framer-motion": "^10.12.16",
     "react": "^18.2.0",
+    "react-custom-roulette": "^1.4.1",
     "react-dom": "^18.2.0",
     "styled-components": "^5.3.6"
   },

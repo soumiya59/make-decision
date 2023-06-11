@@ -1,3 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+body{
+    background-image: url('/bg.jpg');
+    background-repeat: none;
+    background-position-x: center;
+    background-position-y: center;
+    background-size:cover;
+    background-attachment: fixed; 
+    background-color: #F7F7F7;
+    font-family: 'Alice', serif;
+    display: grid;
+    min-height: 100vh;
+    align-items: center;
+}
+.btn{
+  background-color: #F8E8E5;
+}
