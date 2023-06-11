@@ -4,8 +4,8 @@ import { Wheel } from 'react-custom-roulette'
 import bored from './data/bored'
 import yesNo from './data/yesNo'
 import food from './data/food'
-const INPUT = tw.input`ml-5 focus:ring-1 focus:outline-none pl-2 border-2 p-2 mx-5 md:w-96 md:text-lg`
-const BTN = tw.button`border p-3 px-6 text-xl rounded-lg`
+const INPUT = tw.input` focus:ring-1 focus:outline-none pl-2 border-2 p-2  md:w-96 md:text-lg`
+const BTN = tw.button`p-3 px-6 text-xl rounded-lg`
 
 export default () => {
   const [mustSpin, setMustSpin] = useState(false);
@@ -42,15 +42,15 @@ export default () => {
         <div className='bg-white border-2 rounded-b-2xl p-5 md:p-10 cursor-pointer' onClick={()=>{setData(yesNo)}}>YES or No</div>
         <div className='bg-white border-2 rounded-b-2xl p-5 md:p-10 cursor-pointer' onClick={()=>setData(food)}>What to eat</div>
         <div className='bg-white border-2 rounded-b-2xl p-5 md:p-10 cursor-pointer' onClick={()=>setData(bored)}>What to do</div>
-        <div className='bg-white border-2 rounded-b-2xl p-5 md:p-10 cursor-pointer ' onClick={customize}>customize</div>
+        <div className='bg-white border-2 rounded-b-2xl p-5 md:p-10 cursor-pointer' onClick={customize}>Customize</div>
     </div>
 
-    {showinput && 
-    <div className=' flex mx-auto justify-center  mt-10'>
+    {/* {showinput &&  */}
+    <div className=' flex mx-auto justify-center w-fit  mt-10 bg-white'>
       <INPUT type="text" name='option' value={input} onChange={(e)=>setInput(e.target.value)} onKeyDown={handleKeyDown} autoFocus/>
-      <BTN type='button' onClick={addtoList} className='btn'>add</BTN>
+      <BTN type='button' onClick={addtoList} className='btn border border-l-8 border-gray-100 '>add</BTN>
     </div>
-    }
+    {/* } */}
 
 
     {/* wheel */}

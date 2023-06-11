@@ -4,7 +4,8 @@
 
 body{
   background-color: #F7F7F7;
-  color:#38222a
+  color:#38222a;
+  font-family: Nunito, "Segoe UI", Arial, sans-serif;;
 }
 .wheel{
     display: grid;
