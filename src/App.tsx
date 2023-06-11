@@ -5,7 +5,7 @@ import bored from './data/bored'
 import yesNo from './data/yesNo'
 import food from './data/food'
 const INPUT = tw.input` focus:ring-1 focus:outline-none pl-2 border-2 p-2  md:w-96 md:text-lg`
-const BTN = tw.button`p-3 px-6 text-xl rounded-lg`
+const BTN = tw.button`p-3 px-10 text-xl rounded-lg `
 
 export default () => {
   const [mustSpin, setMustSpin] = useState(false);
@@ -76,7 +76,7 @@ export default () => {
         }
       />
     </div>
-    <BTN onClick={handleSpinClick} className='btn flex mx-auto -mt-48'>SPIN</BTN>
+    <BTN onClick={handleSpinClick} className='flex mx-auto -mt-48 border-2 bg-white'>SPIN</BTN>
     </div>
     </>
   )
