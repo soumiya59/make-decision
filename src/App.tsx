@@ -45,12 +45,12 @@ export default () => {
         <div className='bg-white border-2 rounded-b-2xl p-5 md:p-10 cursor-pointer' onClick={customize}>Customize</div>
     </div>
 
-    {/* {showinput &&  */}
+    {showinput && 
     <div className=' flex mx-auto justify-center w-fit  mt-10 bg-white'>
       <INPUT type="text" name='option' value={input} onChange={(e)=>setInput(e.target.value)} onKeyDown={handleKeyDown} autoFocus/>
       <BTN type='button' onClick={addtoList} className='btn border border-l-8 border-gray-100 '>add</BTN>
     </div>
-    {/* } */}
+     } 
 
 
     {/* wheel */}
