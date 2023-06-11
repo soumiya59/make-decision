@@ -38,11 +38,11 @@ export default () => {
   return (
     <>
     {/* navbar */}
-    <div className='grid grid-cols-4 text-center gap-5 text-white md:text-xl'>
-        <div className='bg-fuchsia-900 rounded-b-2xl p-5 md:p-10 cursor-pointer' onClick={()=>{setData(yesNo)}}>YES or No</div>
-        <div className='bg-fuchsia-900 rounded-b-2xl p-5 md:p-10 cursor-pointer' onClick={()=>setData(food)}>What to eat</div>
-        <div className='bg-fuchsia-900 rounded-b-2xl p-5 md:p-10 cursor-pointer' onClick={()=>setData(bored)}>What to do</div>
-        <div className='bg-fuchsia-900 rounded-b-2xl p-5 md:p-10 cursor-pointer ' onClick={customize}>customize</div>
+    <div className='grid grid-cols-4 text-center gap-5  md:text-xl '>
+        <div className='bg-white border-2 rounded-b-2xl p-5 md:p-10 cursor-pointer' onClick={()=>{setData(yesNo)}}>YES or No</div>
+        <div className='bg-white border-2 rounded-b-2xl p-5 md:p-10 cursor-pointer' onClick={()=>setData(food)}>What to eat</div>
+        <div className='bg-white border-2 rounded-b-2xl p-5 md:p-10 cursor-pointer' onClick={()=>setData(bored)}>What to do</div>
+        <div className='bg-white border-2 rounded-b-2xl p-5 md:p-10 cursor-pointer ' onClick={customize}>customize</div>
     </div>
 
     {showinput && 
