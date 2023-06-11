@@ -1,0 +1,16 @@
+export default [
+  { option: 'pancakes' },
+  { option: 'hot chocolate' },
+  { option: 'juice' },
+  { option: 'croissant' },
+  { option: 'sandwich' },
+  { option: 'salad' },
+  { option: 'rice & vegetables' },
+  { option: 'tajine' },
+  { option: 'pizza' },
+  { option: 'Guacamole' },
+  { option: 'fruit' },
+  { option: 'msamen' },
+  { option: 'soup' },
+  { option: 'ice cream' },
+]

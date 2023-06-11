@@ -1,0 +1,16 @@
+export default [
+  { option: 'go swimming' },
+  { option: 'take a nap' },
+  { option: 'watch a movie' },
+  { option: 'journal' },
+  { option: 'bike ride' },
+  { option: 'go to the beach' },
+  { option: 'dance' },
+  { option: 'learn something new' },
+  { option: 'skin care' },
+  { option: 'work out' },
+  { option: 'meditate' },
+  { option: 'yoga' },
+  { option: 'stretch' },
+  { option: 'read a book' },
+]
